@@ -1,3 +1,8 @@
+download from google git(https://android.googlesource.com/platform/tools/base/+/refs/tags/studio-3.0/build-system/)
+初始提交未做任何修改，但为了解决编译问题，新增或者注释了一些代码。
+
+以下是原始README: 
+
 The Android Gradle Plugin
 =========================
 
