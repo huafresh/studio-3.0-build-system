@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.latestCompileSdk
+    buildToolsVersion = rootProject.buildToolsVersion
+    externalNativeBuild {
+        ndkBuild {
+             path "Android.mk"
+        }
+    }
+}
